@@ -6,3 +6,6 @@ manuscript:
 
 format:
   html: default
+
+execute:
+  freeze: auto
