@@ -1,0 +1,94 @@
+---
+submission_id: 499
+title: Digital History Quo Vadis?
+author:
+  - name: Person McAuthor
+    orcid: 0000-0002-0760-5499
+    email: person.mcauthor@university.ch
+    affiliations:
+      - University of Abigcity
+      - State Archives of Anothertown
+  - name: Author O'Person 
+    orcid: 0000-0002-0760-5500
+    email: authoroperson@university.edu
+    affiliations:
+      - University of Scholarville
+keywords:
+  - immersive VR
+  - collaboration
+  - big data analytics
+  - methodology
+abstract: |
+ This AI generated sample abstract explores the current state and future directions of digital methodologies in historical research. This presentation scrutinizes the utilization of big data analytics, computational methods, and immersive virtual reality experiences. Through case studies and theoretical reflections, we evaluate the impact of digital approaches on historical interpretation, pedagogy, and public engagement. This inquiry into the opportunities and challenges presented by digital history aims to provoke critical discourse about the field's trajectory, contemplating the implications of technological advancements for historical inquiry, fostering innovation, and envisioning collaborative possibilities in the digital age.
+key-points:
+  - Key point 1 (1 sentence)
+  - Key point 2 (1 sentence)
+  - Key point 3 (1 sentence)
+date: 04-17-2024
+bibliography: references.bib
+---
+
+### Introduction
+
+In recent years, the integration of digital technologies into historical research has revolutionized the field, offering new avenues for exploration and interpretation. This AI generated presentation titled "Digital History Quo Vadis?" critically examines the current state and future trajectories of digital methodologies in historical scholarship. Drawing upon seminal works such as [@haber2011; @putnam_transnational_2016], this paper navigates the complex terrain of digital history, evaluating its impact on research practices, pedagogical approaches, and public engagement strategies.
+
+At the forefront of this exploration is an assessment of the efficacy of digital tools such as big data analytics, computational methods, and immersive virtual reality experiences in advancing historical inquiry. These technologies, as discussed by Haber, have enabled historians to analyze vast amounts of data, uncovering patterns and connections that were previously inaccessible. However, as Putnam cautions, the digitization of sources also presents challenges, casting shadows on the historical narrative by privileging certain voices and perspectives while marginalizing others. Thus, it becomes imperative to critically interrogate the biases and limitations inherent in digital archives and search algorithms, as highlighted in works like [@brugger_archived_2018].
+
+Moreover, this paper delves into the theoretical frameworks underpinning digital history, drawing insights from [@daston_science_2017]. By examining the intersections between history and science, Daston provides a nuanced understanding of how archival practices shape our understanding of the past and influence future research directions. Similarly, [@underwood_theorizing_2014] prompts historians to reflect on their methodological approaches and consider the implications of digital tools for historical analysis.
+
+### Methods
+
+The methods employed in this paper draw upon a multidisciplinary approach, integrating insights from historical scholarship, digital humanities, and information science. Central to our analysis are the theoretical frameworks articulated by Haber [@haber2011], Putnam [@putnam_transnational_2016], and Brügger [@brugger_archived_2018], which provide a foundation for understanding the intersections between technology and historical inquiry. Additionally, we engage with Daston's exploration of archival practices in the context of science [@daston_science_2017], offering insights into the methodological considerations inherent in digital history research.
+
+The following image is part of this abstract just for Quarto demonstration purposes and has nothing to do with the actual sample abstract.
+
+::: {#fig-example}
+
+![Sample Image](images/institut_minerva.jpeg "Institut Minerva de Recherche en Haute Horlogerie, 2023.")\
+:::
+
+Furthermore, our analysis is informed by Underwood's reflections on research practices [@underwood_theorizing_2014], which prompt historians to critically evaluate their methodological approaches in the digital age. Through a synthesis of these diverse perspectives, we develop a nuanced understanding of the opportunities and challenges presented by digital methodologies in historical research. This methodological approach allows us to navigate the complexities of digital history and offer insights into its future trajectory.
+
+### Conclusion
+
+Through a synthesis of these diverse perspectives, this paper aims to provoke critical discourse on the future trajectory of digital history and its implications for the discipline as a whole. By engaging with [@milligan_history_2019], it highlights the extraordinary opportunities and daunting challenges posed by the abundance of digital sources available to historians today. As historians navigate this digital landscape, they must grapple with questions of ethics, representation, and access, ensuring that their research remains accountable and inclusive.
+
+In conclusion, "Digital History Quo Vadis?" offers a comprehensive exploration of the evolving relationship between technology and historical inquiry. By critically assessing the opportunities and challenges presented by digital methodologies, it seeks to chart a course forward for the field of digital history, fostering innovation, collaboration, and ethical engagement in the digital age.
+
+This abstract is made with Quarto. Check [Quarto's Manuscript Tutorial](https://quarto.org/docs/manuscripts/) for more information on how turn your abstract into a Quarto Manuscript. The documentation also has information on [cross-referencing](https://quarto.org/docs/authoring/cross-references.html) like this (see @fig-example and @fig-plots). You can also cite content using footnotes ([see the docs](https://quarto.org/docs/authoring/footnotes-and-citations.html)) like this one [@haber2011, p. 11].
+
+For advanced users, we recommend exploring features as **Code Blocks**: Use triple backticks (\`\`\`) to create code blocks. Specify the language for syntax highlighting (e.g., ```python```). Quarto lets you run code and embed its output directly into your document. See <https://quarto.org/docs/computations/inline-code.html> for guidance.
+
+```{python}
+#| output: false
+import pandas as pd
+import matplotlib.pyplot as plt
+import numpy as np
+
+# Create some simple synthetic historical data
+np.random.seed(0)
+years = pd.date_range('1900-01-01', periods=120, freq='Y')
+values = np.random.normal(loc=0, scale=1, size=120).cumsum()
+
+data = pd.DataFrame({
+    'Year': years.year,
+    'Value': values
+})
+
+# Save the data to a CSV file
+data.to_csv('data/sample_data.csv', index=False)
+```
+
+```{python}
+#| label: fig-plots
+# Plotting the data
+plt.figure(figsize=(10, 6))
+plt.plot(data['Year'], data['Value'], marker='o')
+plt.title('Synthetic Historical Data')
+plt.xlabel('Year')
+plt.ylabel('Value')
+plt.grid(True)
+plt.show()
+```
+
+You can click on the link above to see the notebook accompanying this abstract where you will be able to see the python script(s).
